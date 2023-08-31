@@ -1,0 +1,261 @@
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #333;
+	background-color: #f2f4f3;
+    background-image: url(img/pexels-burak-the-weekender-735869.jpg);
+    
+}
+
+header {
+	background-color: #e6360a;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #e7e4e4;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+	transition: color 0.3s ease;
+}
+
+nav a:hover {
+	color: #666;
+}
+
+main {
+	max-width: 960px;
+	margin: 120px auto 60px;
+	padding: 0 20px;
+}
+
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #f5eeee;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 64px;
+	margin: 0;
+	line-height: 1.2;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.button {
+	background-color: #fff;
+	border: 2px solid #fff;
+	color: #333;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.featured {
+	margin-bottom: 60px;
+}
+
+.featured h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.dish {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.dish img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.dish h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.dish p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.testimonial {
+	background-color: #f7f7f7;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.testimonial h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.review {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.review p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.review h4 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.review p:last-of-type {
+	margin: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+.menu {
+    margin: 60px 0;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.menu-item img {
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu-item h2 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ee4d2e;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f44336;
+  }
+
+
+  
